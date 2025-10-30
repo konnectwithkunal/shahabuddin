@@ -34,7 +34,7 @@ const Hero = () => {
             {/* Top content */}
             <div className="space-y-4 md:space-y-6">
               <div className="inline-block px-4 md:px-6 py-2 bg-gradient-to-r from-primary/20 to-primary/10 rounded-full border-2 border-primary/40 mb-2 md:mb-4 backdrop-blur-sm hover:scale-105 transition-transform duration-300">
-                <p className="text-primary font-bold text-base md:text-lg">जन सुराज पार्टी के प्रत्याशी</p>
+                <p className="text-primary font-bold text-xl md:text-lg">जन सुराज पार्टी के प्रत्याशी</p>
               </div>
               
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight bg-gradient-to-br from-foreground to-foreground/70 bg-clip-text">

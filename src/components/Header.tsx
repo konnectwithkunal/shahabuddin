@@ -96,7 +96,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="#home" className="logo">डॉ. मो० शाहब उद्दीन</a>
+        <a href="#home" className="logo">डॉ. मो० शहाब उद्दीन</a>
         <ul>
           <li><a href="#about">परिचय</a></li>
           <li><a href="#career">सफर</a></li>
