@@ -7,7 +7,7 @@ const Career = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">व्यावसायिक यात्रा</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-semibold">
             शिक्षा और समाज सेवा में एक समर्पित जीवन
           </p>
         </div>
@@ -28,8 +28,8 @@ const Career = () => {
                   <h4 className="text-xl font-bold">व्याख्याता (Lecturer)</h4>
                   <span className="text-sm bg-primary/10 px-3 py-1 rounded-full font-medium">1985 - 2012</span>
                 </div>
-                <p className="text-lg text-muted-foreground">महेश सिंह यादव (MSY) कॉलेज, गया</p>
-                <p className="mt-2 text-muted-foreground">27 वर्षों तक उर्दू विभाग में शिक्षण कार्य</p>
+                <p className="text-lg text-muted-foreground font-semibold">महेश सिंह यादव (MSY) कॉलेज, गया</p>
+                <p className="mt-2 text-muted-foreground font-semibold">27 वर्षों तक उर्दू विभाग में शिक्षण कार्य</p>
               </div>
 
               <div className="border-l-4 border-secondary pl-6 py-4">
@@ -37,8 +37,8 @@ const Career = () => {
                   <h4 className="text-xl font-bold">सरकारी शिक्षक</h4>
                   <span className="text-sm bg-secondary/10 px-3 py-1 rounded-full font-medium">2012 - 2018</span>
                 </div>
-                <p className="text-lg text-muted-foreground">मध्य विद्यालय पड़ैया, बाराछट्टी, गया</p>
-                <p className="mt-2 text-muted-foreground">प्राथमिक शिक्षा में योगदान</p>
+                <p className="text-lg text-muted-foreground font-semibold">मध्य विद्यालय पड़ैया, बाराछट्टी, गया</p>
+                <p className="mt-2 text-muted-foreground font-semibold">प्राथमिक शिक्षा में योगदान</p>
               </div>
             </CardContent>
           </Card>
@@ -58,7 +58,7 @@ const Career = () => {
                 <p className="text-2xl font-bold text-primary mb-2">उर्दू शायरात-ए-बिहार और उनकी शायरी खिदमात</p>
                 <div className="flex items-center gap-2 mt-4">
                   <Award className="h-5 w-5 text-secondary" />
-                  <p className="text-muted-foreground">बिहार सरकार द्वारा मान्यता प्राप्त और प्रकाशित</p>
+                  <p className="text-muted-foreground font-semibold">बिहार सरकार द्वारा मान्यता प्राप्त और प्रकाशित</p>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ const Career = () => {
                   <Award className="h-6 w-6 text-primary" />
                   <h4 className="text-lg font-bold">पुरस्कार</h4>
                 </div>
-                <p className="text-muted-foreground">
+                <p className="text-muted-foreground font-semibold">
                   बिहार सरकार द्वारा साहित्य में विशेष योगदान के लिए पुरस्कृत (2018)
                 </p>
               </div>
@@ -86,7 +86,7 @@ const Career = () => {
             <CardContent className="space-y-4">
               <div className="border-l-4 border-primary pl-6 py-3">
                 <p className="text-lg font-semibold mb-2">छात्र राजनीति में सक्रिय भागीदारी</p>
-                <p className="text-muted-foreground">शिक्षा के दौरान छात्र आंदोलनों में सक्रिय</p>
+                <p className="text-muted-foreground font-semibold">शिक्षा के दौरान छात्र आंदोलनों में सक्रिय</p>
               </div>
 
               <div className="border-l-4 border-secondary pl-6 py-3">
@@ -94,7 +94,7 @@ const Career = () => {
                   <p className="text-lg font-semibold">अल्पसंख्यक अध्यक्ष, LJP</p>
                   <span className="text-sm bg-secondary/10 px-3 py-1 rounded-full font-medium">2018</span>
                 </div>
-                <p className="text-muted-foreground">लोक जनशक्ति पार्टी में अल्पसंख्यक प्रकोष्ठ के अध्यक्ष</p>
+                <p className="text-muted-foreground font-semibold">लोक जनशक्ति पार्टी में अल्पसंख्यक प्रकोष्ठ के अध्यक्ष</p>
               </div>
 
               <div className="border-l-4 border-primary pl-6 py-3 bg-primary/5 rounded-r-lg">
@@ -102,7 +102,7 @@ const Career = () => {
                   <p className="text-lg font-bold text-primary">जन सुराज पार्टी में शामिल</p>
                   <span className="text-sm bg-primary px-3 py-1 rounded-full font-medium text-primary-foreground">2023</span>
                 </div>
-                <p className="text-muted-foreground">जनता की सेवा और सुराज के लिए प्रतिबद्ध</p>
+                <p className="text-muted-foreground font-semibold">जनता की सेवा और सुराज के लिए प्रतिबद्ध</p>
               </div>
             </CardContent>
           </Card>

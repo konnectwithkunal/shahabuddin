@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">संपर्क करें</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-semibold">
             आपकी समस्याएं, आपके सुझाव - हम हैं आपके साथ
           </p>
         </div>
@@ -20,7 +20,7 @@ const Contact = () => {
                 <div className="space-y-6">
                   <div>
                     <h3 className="text-3xl font-bold mb-6 text-primary">संपर्क जानकारी</h3>
-                    <p className="text-muted-foreground mb-8">
+                    <p className="text-muted-foreground mb-8 font-semibold">
                       बेलागंज क्षेत्र के विकास और जनता की सेवा के लिए हमेशा उपलब्ध
                     </p>
                   </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="font-semibold mb-1">पता</p>
-                        <p className="text-muted-foreground">
+                        <p className="text-xl font-bold text-primary">
                           लक्ष्मीपुर, बेलागंज<br />
                           गया, बिहार
                         </p>
@@ -69,7 +69,7 @@ const Contact = () => {
                 <div className="flex flex-col justify-center space-y-6">
                   <div className="p-8 bg-gradient-to-br from-primary to-primary/80 rounded-2xl text-primary-foreground shadow-[var(--shadow-warm)]">
                     <h4 className="text-2xl font-bold mb-4">जन सुराज पार्टी</h4>
-                    <p className="text-lg mb-6 opacity-90">
+                    <p className="text-lg mb-6 opacity-90 font-semibold">
                       शिक्षा, स्वास्थ्य और रोजगार - हर नागरिक का अधिकार
                     </p>
                     <div className="space-y-3">

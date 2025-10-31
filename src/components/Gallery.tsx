@@ -38,7 +38,7 @@ const Gallery = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">जन संपर्क</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-semibold">
             जनता के बीच, जनता के साथ - बेलागंज की सेवा में
           </p>
         </div>
@@ -68,7 +68,7 @@ const Gallery = () => {
         <div className="mt-12 text-center">
           <div className="inline-block p-8 bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl border-2 border-primary/30">
             <h3 className="text-2xl font-bold mb-2">आ रहा है जन सुराज</h3>
-            <p className="text-lg text-muted-foreground">स्कूल का बस्ता • चुनाव चिन्ह</p>
+            <p className="text-lg text-muted-foreground font-semibold">स्कूल का बस्ता • चुनाव चिन्ह</p>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">परिचय</h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-semibold">
             शिक्षा, साहित्य और समाज सेवा में समर्पित जीवन
           </p>
         </div>
@@ -19,7 +19,7 @@ const About = () => {
                 <BookOpen className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
               </div>
               <h3 className="text-2xl font-bold mb-2">शिक्षाविद</h3>
-              <p className="text-muted-foreground">उर्दू साहित्य में PhD, 27+ वर्षों का शिक्षण अनुभव</p>
+              <p className="text-muted-foreground font-semibold">उर्दू साहित्य में PhD, 27+ वर्षों का शिक्षण अनुभव</p>
             </CardContent>
           </Card>
 
@@ -29,7 +29,7 @@ const About = () => {
                 <Award className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
               </div>
               <h3 className="text-2xl font-bold mb-2">पुरस्कृत लेखक</h3>
-              <p className="text-muted-foreground">बिहार सरकार द्वारा साहित्य में पुरस्कृत</p>
+              <p className="text-muted-foreground font-semibold">बिहार सरकार द्वारा साहित्य में पुरस्कृत</p>
             </CardContent>
           </Card>
 
@@ -39,7 +39,7 @@ const About = () => {
                 <Briefcase className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
               </div>
               <h3 className="text-2xl font-bold mb-2">अनुभवी</h3>
-              <p className="text-muted-foreground">MSY कॉलेज गया में प्रोफेसर (1985-2012)</p>
+              <p className="text-muted-foreground font-semibold">MSY कॉलेज गया में प्रोफेसर (1985-2012)</p>
             </CardContent>
           </Card>
 
@@ -49,7 +49,7 @@ const About = () => {
                 <Users className="h-8 w-8 text-primary group-hover:scale-110 transition-transform duration-300" />
               </div>
               <h3 className="text-2xl font-bold mb-2">जन सेवक</h3>
-              <p className="text-muted-foreground">जन सुराज पार्टी के प्रतिबद्ध सदस्य</p>
+              <p className="text-muted-foreground font-semibold">जन सुराज पार्टी के प्रतिबद्ध सदस्य</p>
             </CardContent>
           </Card>
         </div>
@@ -62,15 +62,15 @@ const About = () => {
                 <div className="space-y-3">
                   <div className="flex justify-between py-2 border-b border-border/50">
                     <span className="font-semibold">जन्म तिथि:</span>
-                    <span>06 अगस्त 1958</span>
+                    <span className="font-semibold">06 अगस्त 1958</span>
                   </div>
                   <div className="flex justify-between py-2 border-b border-border/50">
                     <span className="font-semibold">जन्म स्थान:</span>
-                    <span>लक्ष्मीपुर, बेलागंज, गया</span>
+                    <span className="font-semibold">लक्ष्मीपुर, बेलागंज, गया</span>
                   </div>
                   <div className="flex justify-between py-2 border-b border-border/50">
                     <span className="font-semibold">विधानसभा क्षेत्र:</span>
-                    <span>232 बेलागंज</span>
+                    <span className="font-semibold">232 बेलागंज</span>
                   </div>
                   <div className="flex justify-between py-2">
                     <span className="font-semibold">पार्टी:</span>
@@ -84,12 +84,12 @@ const About = () => {
                 <div className="space-y-4">
                   <div className="p-4 bg-background rounded-lg border border-border">
                     <p className="font-bold text-lg mb-1">PhD (उर्दू)</p>
-                    <p className="text-muted-foreground">मगध विश्वविद्यालय, बोधगया</p>
+                    <p className="text-muted-foreground font-semibold">मगध विश्वविद्यालय, बोधगया</p>
                     <p className="text-sm text-muted-foreground">वर्ष: 2011</p>
                   </div>
                   <div className="p-4 bg-background rounded-lg border border-border">
                     <p className="font-bold text-lg mb-1">M.A (उर्दू)</p>
-                    <p className="text-muted-foreground">मगध विश्वविद्यालय, बोधगया</p>
+                    <p className="text-muted-foreground font-semibold">मगध विश्वविद्यालय, बोधगया</p>
                   </div>
                 </div>
               </div>
